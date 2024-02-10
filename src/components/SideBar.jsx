@@ -14,7 +14,7 @@ const Sidebar = ({ active }) => {
       <FaTimes onClick={closeSidebar} />
       <Content>
         <SidebarLink to="/chave">Chave</SidebarLink>
-        <SidebarLink to="/services">Services</SidebarLink>
+        <SidebarLink to="/tabela">Tabela</SidebarLink>
         <SidebarLink to="/contact">Contact</SidebarLink>
         <SidebarLink to="/sign-up">Sign Up</SidebarLink>
       </Content>
