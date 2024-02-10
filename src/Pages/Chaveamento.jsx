@@ -3,7 +3,7 @@ import Tabela from '../components/Table'
 
 const Chaveamento = () => {
   return (
-    <Tabela/>
+    <Tabela/> 
   )
 }
 

@@ -7,7 +7,7 @@ export const ContainerTable = styled.div `
 
 export const Table = styled.table`
   width: 400px;
-  background-color: #424242;
+  background-color: #272727;
   padding: 20px;
   border-radius: 5px;
   max-width: 1120px;

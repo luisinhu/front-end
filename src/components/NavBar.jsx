@@ -5,7 +5,7 @@ import {
   Bars,
   NavBtn,
   NavBtnlink,
-  NavLink,
+  NavLink, 
   NavMenu,
   Img
 } from "../styles/NavBarStyle";
@@ -24,13 +24,13 @@ const NavBar = () => {
         <Bars onClick={showSidebar} />
         {sidebar && <Sidebar active={setSideBar} />}
         <NavMenu>
-          <NavLink to="/chave" activeStyle>
-            Chave
+          <NavLink to="/tabela" activeStyle>
+            Tabela
           </NavLink>
         </NavMenu>
         <NavMenu>
-          <NavLink to="/services" activeStyle>
-            Services
+          <NavLink to="/chave" activeStyle>
+            Chave
           </NavLink>
         </NavMenu>
         <NavMenu>

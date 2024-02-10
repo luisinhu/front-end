@@ -8,7 +8,7 @@ const Tabela = () => {
         <Thead>
           <Tr>
             <Th>Grupos</Th>
-          </Tr>
+          </Tr> 
         </Thead>
         <Tbody>
           <Tr>
@@ -19,6 +19,7 @@ const Tabela = () => {
           </Tr>
         </Tbody>
       </Table>
+      
       <Table>
         <Thead>
           <Tr>

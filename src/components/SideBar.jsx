@@ -4,7 +4,7 @@ import { Container, Content, SidebarLink } from '../styles/SideBarStyle';
 import { FaTimes } from 'react-icons/fa';
 
 const Sidebar = ({ active }) => {
-
+ 
   const closeSidebar = () => {
     active(false);
   }
